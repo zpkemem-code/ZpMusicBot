@@ -102,13 +102,13 @@ if [ ! -f ".env" ] || [ ! -s ".env" ]; then
     if [[ "$create_env" == "y" || "$create_env" == "Y" ]]; then
         echo -e "${MAGENTA}[*] Memulai Setup Environment (Tekan Enter jika ingin mengosongkan)...${NC}"
         
-        read -p "API_ID: " 34147703
-        read -p "API_HASH: " f52e962543b3f4ebbc01c6a30cd8ebf2
-        read -p "BOT_TOKEN: " 8815535023:AAGNwk2ZWDUgFgpkdF8SndWHYmc9Fncuaq8
-        read -p "SESSION (Pyrogram/Telethon): " BQIxbwIAuWsXdRi5VdQAjFR1W5_HuMSejWQW22yRJjBQ-doE3HZjkxCVVbQ_sZj8rQ5-lKZJJAUBEuTbIKvOEGQwb1U3RfbQLQatng_OE9y2p3aHrtNngXmWlK4XyXI7DxIKOrgvPaRhOyuXUhkLJ5nPYiIo9cRlWJ7IRAaFPoB1_0aVus84RUy3I8Brj_v5g22QdOLJmg1siAXaZBy9O8FZEHFGaT1D1mEowYl9nonDR3LVuOUotHvmGS1StaIK9fyVhUSOxMtv0dBxW_Bh1m3N0d6l_wdpIK9GvlsoHjfraEIjukZ4dTZ470CFE2A-RF-g_N_TwWNMWcIGNn1J8HJ57e67pwAAAAIW7hSiAA
-        read -p "ADMIN_ID (ID Telegram Anda): " 7586938131
-        read -p "CREDIT_CHANNEL (Link Channel): " https://t.me/zpsexz
-        read -p "FSUB_CHANNEL (Username Channel FSub, opsional): " Copy Paste
+        read -p "API_ID: " 
+        read -p "API_HASH: " 
+        read -p "BOT_TOKEN: " 
+        read -p "SESSION (Pyrogram/Telethon): " 
+        read -p "ADMIN_ID (ID Telegram Anda): " 
+        read -p "CREDIT_CHANNEL (Link Channel): " 
+        read -p "FSUB_CHANNEL (Username Channel FSub, opsional): " 
         
         cat <<EOF > .env
 API_ID=$ENV_API_ID
